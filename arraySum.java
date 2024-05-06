@@ -10,10 +10,6 @@ class ArraySum {
         int sum = 0;
 
         for (int i = nums.length - 1; i >= 0; i--) {
-            System.out.println(nums[i]);
-            System.out.println(sum);
-            System.out.println(result);
-
             if (sum >= target) {
 
                 return result;
